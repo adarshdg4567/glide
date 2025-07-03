@@ -62,16 +62,3 @@ So keep your tail as light as possible unless you want to fight the trim gods.
 
 ---
 
-## license  
-
-Open skies, open source.  
-Remix it, print it, fly it, crash it. Just don’t sell it without telling people where it came from. Attribution appreciated.
-
----
-
-## contact  
-
-If you flew it into a tree or a mountain that’s between you and gravity.  
-But if you’re building and need help: drop an issue, open a PR, or DM the dev.
-
-Built for fun. Shared for vibes.
