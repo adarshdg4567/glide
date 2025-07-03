@@ -28,7 +28,7 @@ Built for modularity, it’s designed with stability, visibility, and DIY-friend
 
 This 110cm wingspan fixed-wing platform is perfect for long-range missions or just low-pass flybys. Built light with strong parts, and heavy on the style.
 
-She’s front-heavy by design — needs around 300g of battery + FPV gear in the nose to balance right.  
+She’s front-heavy by design   needs around 300g of battery + FPV gear in the nose to balance right.  
 So keep your tail as light as possible unless you want to fight the trim gods.
 
 ---
