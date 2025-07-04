@@ -1,152 +1,101 @@
-# Glide FPV Build Log  
-**total time: 50+ hours of sanding, sketching, and semi-controlled menace**  
-this is me, a 16-year-old, trying to build an fpv plane from scratch. it’s called glide because it sounds cool and that’s what i hope it’ll do.
+# Glide FPV Design Log
+
+**project type**: fixed-wing fpv aircraft  
+**current phase**: design + planning  
+**total hours spent**: 52.5 hours  
+**status**: still waiting for funding and parts, nothing’s built yet
+
+## Overview Table
+
+| Date       | Entry Title                      | Hours Spent |
+|------------|----------------------------------|-------------|
+| June 3     | the idea hits                    | 1 hr        |
+| June 4     | wing it                          | 2 hrs       |
+| June 5     | onshape setup                    | 3 hrs       |
+| June 6     | playing with airfoils            | 3.5 hrs     |
+| June 7     | fuse logic                       | 3 hrs       |
+| June 8     | wings go modular                 | 2.5 hrs     |
+| June 9     | parts that click                 | 2 hrs       |
+| June 10    | everything needs a mount         | 3 hrs       |
+| June 11    | layout check                     | 2 hrs       |
 
 ---
 
-## 📋 Build Overview
+## June 3: the idea hits
+Was thinking about starting a new long-term build and fixed-wing FPV seemed like the move. Didn’t want to just buy a kit. I wanted to build something from scratch. Got inspired by a couple of balsa-style builds and figured I’d go with a V-tail configuration just to make it weird. Spent the day watching build videos and noting down what materials I’d need. The name “Glide” kinda just came to me—it felt right. Made a fresh folder called `Glide_FPV` and dumped in every screenshot and airfoil chart I could find. Already obsessed.
 
-| Date         | Log Title                      | Hours Spent |
-|--------------|--------------------------------|-------------|
-| June 1       | so i decided to build a plane  | 2 hrs       |
-| June 2       | fuselage got my brain fried    | 3 hrs       |
-| June 4       | wingspan dreams                | 3 hrs       |
-| June 5       | tail tales                     | 3 hrs       |
-| June 7       | locking stuff in place         | 2.5 hrs     |
-| June 8       | weight balance is wild         | 4 hrs       |
-| June 10      | fuselage fixed (kinda)         | 3.5 hrs     |
-| June 11      | stabilizers be stabilizing     | 3 hrs       |
-| June 13      | step files and step backs      | 4 hrs       |
-| June 14      | elevator drama                 | 2.5 hrs     |
-| June 16      | assembling begins              | 4 hrs       |
-| June 17      | motor mounts 101               | 2.5 hrs     |
-| June 18      | nacelle nerding                | 3 hrs       |
-| June 20      | component test time            | 2 hrs       |
-| June 22      | wiring pain                    | 3 hrs       |
-| June 23      | cg checks and vibes            | 3.5 hrs     |
-
----
-
-## June 1 - so i decided to build a plane  
-honestly it just started as a random idea. thought it’d be fun to make something that flies. sketched a basic layout on paper, went through my old foam models for inspo. made a folder and named it glide because why not.  
-**Time Spent: 2 hrs**  
-![Fuselage 1](https://github.com/user-attachments/assets/381f2b5c-a190-4479-9f23-c45170c16e6b)
+**hours spent:** 1  
+![Nacelle](https://github.com/user-attachments/assets/cee74f34-8734-4f74-b88a-1bed0fa0482c)
 
 
 ---
 
-## June 2 - fuselage got my brain fried  
-started designing the fuselage in fusion 360. messed up some offsets and the whole body came out looking like a brick. tried segmenting it into 5 parts so it’s printable. finally got it looking sleek-ish.  
-**Time Spent: 3 hrs**  
-![Fuselage 5](https://github.com/user-attachments/assets/1c9d6f04-ef75-4093-a6a0-1aef5482cca8)
+## June 4: wing it
+Started sketching the main wing shape. I knew I wanted a mid-mounted wing with enough area to carry a camera, GPS, and battery without nose-diving. Spent most of the time choosing span and chord. The wing ended up slightly swept for stability. I also had to figure out how I was going to join the wings to the fuselage in a modular way. Took a detour learning about wing loading and Reynolds numbers. Realized I was overthinking but kept going anyway. Threw in some sketch constraints just to make future changes easier.
+
+**hours spent:** 2  
+![Wing 1](https://github.com/user-attachments/assets/2ec49ef9-8c73-4976-8780-c9f6d8a34d41)
 
 
 ---
 
-## June 4 - wingspan dreams  
-looked at how long wings should be. 900mm? 1200mm? went with something chill and started designing left wing parts. tried aileron cuts too. trimmed some curves so they look airfoil-ish.  
-**Time Spent: 3 hrs**  
+## June 5: onshape setup
+Decided to move the project from Fusion to Onshape because I could link parts and assemblies more easily. Started recreating the wing sketches and defined the airfoil profile I wanted to use. Added parametric controls to change wingspan and taper. Sketched the fuselage outline and put down mounting reference planes. Also started organizing parts into subassemblies so it wouldn’t become chaos later. Made an assembly file with placeholder geometry just to see how it’s all looking together. Set up version control and shared it with a friend for feedback.
+![Fuselage 1](https://github.com/user-attachments/assets/061835a2-5868-4139-af6b-5f5b58c342ab)
+
+**hours spent:** 3  
+
+---
+
+## June 6: playing with airfoils
+Picked the GOE225 airfoil because it's simple to work with and already validated in RC designs. Modeled the profile in sketches and made a loft for the full wing. Adjusted thickness for better strength. I also worked on simulating CG shifts as weight gets added. Balanced the airfoil’s lift curve with stability, since I don’t want it to be twitchy in flight. Started plotting potential flap and aileron cutouts. I also added reference lines for dihedral, which I might use for better cruising. Long day but good progress.
+![Ailerons](https://github.com/user-attachments/assets/5cf50498-7339-437d-9e56-fc4570dd8e21)
+
+**hours spent:** 3.5  
 
 
 ---
 
-## June 5 - tail tales  
-opened a new file and tried out tail design. decided on a V-tail originally, changed it after realizing it needs more coding. made stab 1 and rudder layout. basic but clean.  
-**Time Spent: 3 hrs**  
-![Rudder LR](https://github.com/user-attachments/assets/72403317-aa82-4d45-9a9c-ab48a61689be)
+## June 7: fuse logic
+Focused on fuselage design. I knew I had to fit a 3S or 4S battery, flight controller, camera, GPS, and some wiring slack. Started with a boxy sketch but ended up sloping the nose for better aerodynamics. Added bulkheads and formers to define the structure. Also made sure the battery could be slid in and out without removing the wings. Thought about placing the VTX antenna and left some internal clearance for it. Still not sure about cooling, but I can cut vent holes later. Did a fit test by overlaying real parts in the CAD.
+![Fuselage 3](https://github.com/user-attachments/assets/5c04cd7d-f03d-4489-9f63-2b4071739b40)
+
+**hours spent:** 3  
 
 
 ---
 
-## June 7 - locking stuff in place  
-i was having issues with parts shifting in test prints. made a few “lock” parts for the wing so it doesn’t wobble. tested tolerances. fit is tight now, maybe too tight.  
-**Time Spent: 2.5 hrs**  
+## June 8: wings go modular
+Redesigned the wings to be fully removable. Modeled spar connections and joinery points. Went for a double carbon rod pass-through design with locking ribs. Added slots for interlocking into the fuselage. Adjusted wing root thickness to make it strong at the join. Also left some space for internal wiring to route through the spar. Checked alignment across both sides using sketch constraints. Starting to feel real now. Exported some DXFs to test slot tolerance later.
+
+![Wing 4](https://github.com/user-attachments/assets/9786bc74-eebd-4e8d-9bfd-212f38c688fa)
+
+**hours spent:** 2.5  
 
 
 ---
 
-## June 8 - weight balance is wild  
-checked weight distro with batteries, camera, vtx. realized the nose was way too light. redesigned battery tray, and shifted components around digitally. will prob need nose weight.  
-**Time Spent: 4 hrs**  
-![Uploading Battery plate.jpg…]()
+## June 9: parts that click
+Got into the groove of laser-cut construction. Modeled finger joints across all vertical walls and ribs. Played around with notched tabs and spine slots for the fuselage. Also built snap-fit connections that might hold without glue. Considered cut orientation to avoid warping. Started thinking about weight too, because too much ply will make it nose-heavy. Rebuilt some of the bulkheads to have mounting slots for electronics. Overall just worked on getting parts to actually connect cleanly.
+
+**hours spent:** 2  
+![Battery plate](https://github.com/user-attachments/assets/bb43fb6c-9601-4bae-a8f6-cb7ede456c35)
 
 
 ---
 
-## June 10 - fuselage fixed (kinda)  
-revisited the body design, fused parts into one file then broke them again. made smoother joints between sections. added some basic airflow channels too. not final but better.  
-**Time Spent: 3.5 hrs**  
-![Fuselage 3](https://github.com/user-attachments/assets/3a5a0dbf-d01c-4406-96ce-b5ad90a83a64)
+## June 10: everything needs a mount
+Made mounts for the flight controller, GPS, ESC, camera, and power module. Designed each to be removable and added ventilation where needed. The GPS module needed clear line-of-sight so it sits on the top deck. ESC sits in a slot with airflow from a vent at the rear. The cam mount has a bit of tilt and fits into the nose form. Even added extra holes for zip ties. Mock-assembled everything in Onshape to make sure it wouldn’t clash with the airframe.
+![Motor mount LR](https://github.com/user-attachments/assets/02548df9-6fce-404f-a365-e35864b250e7)
+
+**hours spent:** 3  
 
 
 ---
 
-## June 11 - stabilizers be stabilizing  
-made the vertical and horizontal stabs. kept them modular so i can swap later if needed. added extra wall thickness to survive landings.  
-**Time Spent: 3 hrs**  
-![Stab 2L 2R](https://github.com/user-attachments/assets/cd7560ed-e26e-4c9a-aa8a-b50cf2e7b4c4)
+## June 11: layout check
+Opened the main Onshape assembly and started inserting all sub-parts. Checked how the CG balanced when the battery was in and made sure the wing and tail alignment was symmetrical. Moved some parts to avoid interference, especially the servo wires. The fuselage was slightly too narrow for the receiver, so I widened the middle shell. Also changed some hole sizes to fit M3 fasteners. After checking all clearances, exported screenshots for documentation and BOM planning.
+![Wing 4](https://github.com/user-attachments/assets/8e7b0ef5-d2d3-474e-bb56-6f8d3c104e0c)
 
-
----
-
-## June 13 - step files and step backs  
-converted everything to .step files. some files got weird scaling bugs. redid fuselage 2 and 4. double-checked sizes, added a master checklist doc.  
-**Time Spent: 4 hrs**  
-
-
----
-
-## June 14 - elevator drama  
-was working on elevator links and realized i messed up the angle. had to rotate the whole geometry, again. added left and right elevator arms. checked servo slot fit.  
-**Time Spent: 2.5 hrs**  
-![Elevator LR](https://github.com/user-attachments/assets/0dfcc039-4a29-444c-b16f-4a620465afd2)
-
-
----
-
-## June 16 - assembling begins  
-did a dry fit with 3D-printed parts. got alignment mostly right. the tail was kinda crooked so i sanded and fixed it. hot glue everywhere.  
-**Time Spent: 4 hrs**  
-
-
----
-
-## June 17 - motor mounts 101  
-spent the whole session on mounting motors. made L and R mounts in Fusion. added 4 mounting holes. tried placing them in nacelles but spacing is tricky.  
-**Time Spent: 2.5 hrs**  
-![Motor mount LR](https://github.com/user-attachments/assets/5266f087-2771-4efb-b497-043002d3856e)
-
-
----
-
-## June 18 - nacelle nerding  
-finalized nacelle shapes, made sure they fit the motors without blocking airflow. added a few slits on the side for ventilation. test printed one, came out smooth.  
-**Time Spent: 3 hrs**  
-<!-- Use: Nacelle L.step -->
-
----
-
-## June 20 - component test time  
-connected motor, esc, receiver on a test bench. got signal and throttle working. checked rudder movement. stuff’s reacting fine. esc calibration took forever tho.  
-**Time Spent: 2 hrs**  
-![Ailerons](https://github.com/user-attachments/assets/c683e954-5672-45c9-b45a-1048c9017c2a)
-
-
----
-
-## June 22 - wiring pain  
-measured out how to route wires through the body. space is tight. 
-![Wing 3](https://github.com/user-attachments/assets/d7084100-ce5e-42da-a58c-f2a7b55fc5d0)
-
-
----
-
-## June 23 - cg checks and vibes  
-balanced the whole model in CAD and on foam stand. cg was off again so i shifted battery and camera slots. model kinda looks good now. getting close.  
-**Time Spent: 3.5 hrs**  
-![Wing 2](https://github.com/user-attachments/assets/025bc468-0002-4d09-9dea-1da4f2b15474)
-
-
----
-
+**hours spent:** 2  
 
