@@ -1,5 +1,5 @@
 # Glide FPV Build Log  
-**total time: 50+ hours of sanding, sketching, and semi-controlled chaos**  
+**total time: 50+ hours of sanding, sketching, and semi-controlled menace**  
 this is me, a 16-year-old, trying to build an fpv plane from scratch. it’s called glide because it sounds cool and that’s what i hope it’ll do.
 
 ---
@@ -18,7 +18,7 @@ this is me, a 16-year-old, trying to build an fpv plane from scratch. it’s cal
 | June 11      | stabilizers be stabilizing     | 3 hrs       |
 | June 13      | step files and step backs      | 4 hrs       |
 | June 14      | elevator drama                 | 2.5 hrs     |
-| June 16      | assembling chaos begins        | 4 hrs       |
+| June 16      | assembling begins              | 4 hrs       |
 | June 17      | motor mounts 101               | 2.5 hrs     |
 | June 18      | nacelle nerding                | 3 hrs       |
 | June 20      | component test time            | 2 hrs       |
@@ -46,7 +46,7 @@ started designing the fuselage in fusion 360. messed up some offsets and the who
 ## June 4 - wingspan dreams  
 looked at how long wings should be. 900mm? 1200mm? went with something chill and started designing left wing parts. tried aileron cuts too. trimmed some curves so they look airfoil-ish.  
 **Time Spent: 3 hrs**  
-<!-- Use: Wing L 1.step -->
+
 
 ---
 
@@ -61,7 +61,7 @@ opened a new file and tried out tail design. decided on a V-tail originally, cha
 ## June 7 - locking stuff in place  
 i was having issues with parts shifting in test prints. made a few “lock” parts for the wing so it doesn’t wobble. tested tolerances. fit is tight now, maybe too tight.  
 **Time Spent: 2.5 hrs**  
-<!-- Use: Wing L Lock.step -->
+
 
 ---
 
@@ -92,7 +92,7 @@ made the vertical and horizontal stabs. kept them modular so i can swap later if
 ## June 13 - step files and step backs  
 converted everything to .step files. some files got weird scaling bugs. redid fuselage 2 and 4. double-checked sizes, added a master checklist doc.  
 **Time Spent: 4 hrs**  
-<!-- Use: Fuselage 2.step -->
+
 
 ---
 
@@ -104,10 +104,10 @@ was working on elevator links and realized i messed up the angle. had to rotate 
 
 ---
 
-## June 16 - assembling chaos begins  
+## June 16 - assembling begins  
 did a dry fit with 3D-printed parts. got alignment mostly right. the tail was kinda crooked so i sanded and fixed it. hot glue everywhere.  
 **Time Spent: 4 hrs**  
-<!-- Use: Wing L 4.step -->
+
 
 ---
 
@@ -135,8 +135,7 @@ connected motor, esc, receiver on a test bench. got signal and throttle working.
 ---
 
 ## June 22 - wiring pain  
-measured out how to route wires through the body. space is tight. had to change hole diameters and internal tunnels. ran mock wires to see if it fits.  
-**Time Spent: 3 hrs**  
+measured out how to route wires through the body. space is tight. 
 ![Wing 3](https://github.com/user-attachments/assets/d7084100-ce5e-42da-a58c-f2a7b55fc5d0)
 
 
@@ -150,6 +149,4 @@ balanced the whole model in CAD and on foam stand. cg was off again so i shifted
 
 ---
 
-**next up: flight test prep, maybe foam padding inside, and actual maiden flight**  
-this plane’s gonna glide, even if it nose-dives first try  
 
