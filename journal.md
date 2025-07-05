@@ -150,10 +150,10 @@ Organized the bill of materials today. Broke things down into mechanical parts, 
 ---
 
 ## June 17: render prep and doc screenshots
-Took a bunch of high-res screenshots of all the major assemblies and subparts. Cleaned up the CAD for rendering by hiding constraints and sketches. Labeled parts using callouts. Exported STEP and DXF files for fabrication. Also prepared a PDF of the design overview and BOM to pitch for funding. Checked file exports for errors and zipped the final folder. Ending the design phase for now until money shows up.
+Took a bunch of high-res screenshots of all the major assemblies and subparts. Cleaned up the CAD for rendering by hiding constraints and sketches. Labeled parts using callouts. Exported STEP and DXF files for fabrication. Checked file exports for errors and zipped the final folder. Ending the design phase for now until money shows up.
 
 **hours spent:** 2  
 ![Fuselage 5](https://github.com/user-attachments/assets/68180676-70a3-4a88-9655-ddbd1ac95157)
 
-  
+![image](https://github.com/user-attachments/assets/74c2aefa-7a8a-4f6c-853d-a7fcd8631d6c)
 
