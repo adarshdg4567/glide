@@ -2,7 +2,7 @@
 |------------------------|------------|-----------------------------------------------------------|------------|
 | Glide build jounral    | adarshdg   | fixed-wing fpv aircraft                                   | 2025-07-05 |
 
-Total Time Spent So Far: 37.5 Hours
+Total Time Spent So Far: 38.5 Hours
 
 # Glide FPV Design Log
 
