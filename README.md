@@ -1,7 +1,8 @@
 # Glide  
 **an fpv plane project that's got wings.**
 
-![Glide Render](https://github.com/user-attachments/assets/6f180cf2-572e-401e-8ce9-46a02ef12622)
+![image](https://github.com/user-attachments/assets/30f52869-57f5-4368-8a26-9b7506fdd3d9)
+
 
 ---
 
