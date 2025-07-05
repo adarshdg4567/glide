@@ -164,3 +164,18 @@ Took a bunch of high-res screenshots of all the major assemblies and subparts. C
 
 ![image](https://github.com/user-attachments/assets/74c2aefa-7a8a-4f6c-853d-a7fcd8631d6c)
 
+---
+
+# long break cus of exams :(
+
+---
+## June 18: pcb and schematic drafts
+
+Today I opened easyeda and started from scratch, laying out the basic schematic for the flight controller integration. Focused on placing JST headers for servos, ESC, power module, and telemetry components. I mapped everything I had in my wiring plan, double-checked datasheets, and ensured nothing would overlap in the board view. Took my time routing power and ground planes, trying to reduce noise near the camera circuit. Designed the board outline based on my fusion360 export, keeping mounting holes aligned. Added silkscreen labels for each connection and exported the BOM and Gerbers. Not final yet, but it’s a solid draft. 
+
+![image](https://github.com/user-attachments/assets/c1337c88-5f21-4844-81e5-43b4fdb8eefa)
+![image](https://github.com/user-attachments/assets/22030c41-c101-45c5-825a-06222057acac)
+![image](https://github.com/user-attachments/assets/a906ab15-04a6-4d82-a792-444e835c2844)
+![image](https://github.com/user-attachments/assets/800e4937-dbcd-49c4-b082-3c714182cfd4)
+
+
