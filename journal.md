@@ -29,6 +29,7 @@ Total Time Spent So Far: 37.5 Hours
 | June 15    | canopy and hatch designs         | 2.5 hrs     |
 | June 16    | BOM cleanup and cost estimates   | 3 hrs       |
 | June 17    | render prep and doc screenshots  | 2 hrs       |
+| June 18    | pcb and schematic drafts         | 3 hrs       |
 
 ---
 
