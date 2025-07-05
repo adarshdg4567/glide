@@ -27,7 +27,7 @@
 ---
 
 ## June 3: the idea hits
-Was thinking about starting a new long-term build and fixed-wing FPV seemed like the move. Didn’t want to just buy a kit. I wanted to build something from scratch. Got inspired by a couple of balsa-style builds and figured I’d go with a V-tail configuration just to make it weird. Spent the day watching build videos and noting down what materials I’d need. The name “Glide” kinda just came to me—it felt right. Made a fresh folder called `Glide_FPV` and dumped in every screenshot and airfoil chart I could find. Already obsessed.
+Was thinking about starting a new long-term build and fixed-wing FPV seemed like the move. Didn’t want to just buy a kit. I wanted to build something from scratch. Got inspired by a couple of balsa-style builds and figured I’d go with a V-tail configuration just to make it weird. Spent the day watching build videos and noting down what materials I’d need. The name “Glide” kinda just came to me it felt right. Made a fresh folder called `Glide_FPV` and dumped in every screenshot and airfoil chart I could find. Already obsessed.
 
 **hours spent:** 1  
 ![Nacelle](https://github.com/user-attachments/assets/cee74f34-8734-4f74-b88a-1bed0fa0482c)
