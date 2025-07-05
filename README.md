@@ -18,7 +18,6 @@
 | Motor Range      | 2207 to 2306                                           |
 | Prop Size        | 6x5" to 7x5"                                           |
 | Tail Type        | Boom-mounted V-tail                                   |
-| Printing Tips    | Keep tail as light as possible, nose needs ~300g ballast |
 
 ---
 
