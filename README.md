@@ -34,11 +34,11 @@ So keep your tail as light as possible unless you want to fight the trim gods.
 
 ---
 
-## recommended setup  
+## setup  
 
 - **Frame**: Printed in ePLA-ST or PLA-LW  
 - **Motors**: 2207 to 2306  
-- **Props**: 6x5" to 7x5"  
+- **Props**: 6x5"  
 - **Battery**: 5S 2200mAh LiPo or 4S 21700 Li-ion  
 - **Build**: Modular wings, lightweight booms, compact internal bay
 
