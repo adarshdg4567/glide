@@ -1,3 +1,9 @@
+| title                  | author     | description                                               | created_at |
+|------------------------|------------|-----------------------------------------------------------|------------|
+| Glide build jounral    | adarshdg   | fixed-wing fpv aircraft                                   | 2025-07-05 |
+
+Total Time Spent So Far: 17 Hours
+
 # Glide FPV Design Log
 
 **project type**: fixed-wing fpv aircraft  
