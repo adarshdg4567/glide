@@ -45,20 +45,25 @@ So keep your tail as light as possible unless you want to fight the trim gods.
 
 ## bom (bill of materials)  
 
-| Component        | Spec / Recommendation           | Qty | Notes                          |
-|------------------|----------------------------------|-----|--------------------------------|
-| Flight Controller| SpeedyBee F405                  | 1   | Supports INAV                  |
-| ESC              | 35A ESC                         | 2   | Brushless, 2x setup            |
-| Motors           | T-Motor 2207 / 2306             | 2   | Fixed-wing optimized           |
-| Battery          | 4S 21700 Li-ion / 5S 2200mAh    | 1   | Adds necessary nose weight     |
-| Propellers       | 6x5" to 7x5"                    | 2   | Matched to motor spec          |
-| GPS Module       | Ublox Neo-M8N                   | 1   | For position and compass       |
-| VTX              | 5.8GHz Analog                   | 1   | Use with matching cam & gogs   |
-| FPV Camera       | Analog FPV cam                  | 1   | Mounts on nose                 |
-| RX               | ExpressLRS Receiver             | 1   | For long-range control         |
-| TX               | ELRS Transmitter                | 1   | Standard ELRS remote           |
-| FPV Goggles      | Analog-capable goggles          | 1   | Your eyes in the sky           |
-| Carbon Tubes     | For boom & wing spars           | 4   | Structural support             |
+## Bill of Materials (BOM) – Glide FPV
+
+| Component         | Name/Spec                  | Qty | Price per unit (INR) | Total (INR) | Price (USD) |
+|------------------|----------------------------|-----|-----------------------|-------------|-------------|
+| Flight Controller | SpeedyBee F405            | 1   | ₹7,364.00             | ₹7,364.00   | $86.13      |
+| ESC              | 35A ESCs                   | 3   | ₹732.00               | ₹2,196.00   | $25.68      |
+| Motor            | T-Motor Brushless Motor    | 3   | ₹675.00               | ₹2,025.00   | $23.68      |
+| Battery          | 4S LiPo Battery            | 1   | ₹2,404.00             | ₹2,404.00   | $28.12      |
+| Propeller        | 6x5" Propellers            | 3   | ₹398.00               | ₹1,194.00   | $13.96      |
+| GPS              | GPS Module                 | 1   | ₹1,964.00             | ₹1,964.00   | $22.97      |
+| VTX              | 5.8GHz Video Transmitter   | 1   | ₹3,220.00             | ₹3,220.00   | $37.66      |
+| Camera           | FPV Camera                 | 1   | ₹1,403.00             | ₹1,403.00   | $16.41      |
+| Receiver         | ELRS Receiver              | 1   | -                     | -           | self-made   |
+| Transmitter      | ELRS Transmitter (Custom)  | 1   | —                     | —           | Self-made   |
+| Goggles          | FPV Goggles                | 1   | ₹4,500.00             | ₹4,500.00   | $52.63      |
+
+**Total (USD):** $318.32  
+**Exchange Rate (as of 5th July 2025):** ₹85.50 / $1
+
 
 ---
 
