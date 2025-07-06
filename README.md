@@ -62,3 +62,8 @@ So keep your tail as light as possible unless you want to fight the trim gods.
 
 ---
 
+# some pictures
+
+![image](https://github.com/user-attachments/assets/2ad60561-3ae8-4fdc-8f65-8d427d7cdd9c)
+![image](https://github.com/user-attachments/assets/a06b602a-0458-4179-a02f-2bea99402899)
+
